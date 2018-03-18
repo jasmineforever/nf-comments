@@ -1,0 +1,25 @@
+{
+  "service_setting":
+  {
+    "db_path": "./comments.db",
+    "db_service_port": 5000,
+    "service_uri": "/comments",
+    "db_cache_size": 100,
+    "allow_origin": "*"
+  },
+
+  "comments_setting":
+  {
+    "enable_pagination": true,
+    "max_comments_per_page": 5,
+    "max_comment_char_num": 255
+  },
+
+  "blog_setting":
+  {
+    "owner_name": "xxx",
+    "owner_email": "xxx@xxx.com",
+    "owner_avatar":"/resources/comments_avatar.jpg",
+    "owner_show_name": "xxxx"
+  }
+}
