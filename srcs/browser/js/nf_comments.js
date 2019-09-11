@@ -226,7 +226,7 @@ function getNFComments(pageIndex, needGotoEnd) {
 
                     if(getCookie("nf_user_website") != website_str)
                     {
-                        setCookie("nf_user_name", website_str, 365);
+                        setCookie("nf_user_website", website_str, 365);
                     }
                 }
             }

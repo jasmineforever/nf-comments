@@ -364,6 +364,7 @@ textarea:focus
         flex-flow: column nowrap;
         justify-content: flex-start;
         align-items: flex-start;
+        width: 100%;
     }
     .nf-remember-me
     {
@@ -382,9 +383,10 @@ textarea:focus
     .nf-info-input-group {
         height: 32px;
         margin-bottom: 10px;
+        width: 100%;
     }
     .nf-info-input {
-        width: 200px;
+        width: 90%;
     }
 }
 
