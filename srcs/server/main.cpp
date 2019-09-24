@@ -25,5 +25,6 @@ int main(int argc, char* argv[])
         exit(EXIT_FAILURE);
     }
     service.join();
+    LOG_TRACE("exit");
     return 0;
 }

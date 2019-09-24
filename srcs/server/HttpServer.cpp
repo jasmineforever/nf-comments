@@ -106,7 +106,8 @@ namespace nifeng
 
                     if(!isHandled)
                     {
-                        mg_serve_http(nc, hm, pThis->_http_server_opts);
+                        //mg_serve_http(nc, hm, pThis->_http_server_opts);
+                        mg_printf(nc, "%s%d%s%s", "HTTP/1.1 404 Not Found\r\nContent-Type: text/plain\r\nContent-Length: ", (int)sizeof("Not Found"), "\r\n\r\n", "Not Found\r\n");
                         return ;
                     }
                     isHandled = true;
